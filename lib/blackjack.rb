@@ -53,11 +53,11 @@ invalid_command
 # get every test to pass before coding runner below #
 #####################################################
 
-def runner(card_total)
+def runner
 welcome
 initial_round
-hit?(card_total)
-display_card_total(card_total)
+hit?
+display_card_total
   unless card_total > 21
     end_game
   end 
