@@ -38,7 +38,6 @@ user_input = get_user_input
      card_total
   elsif user_input =="h"
      card_total = card_total + deal_card
-  elsif user_input = nil
   else invalid_command
      hit?(card_total)
   end 
