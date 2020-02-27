@@ -7,7 +7,7 @@ rand(1..11)
 end
 
 def display_card_total(card_total)
-num < 7
+card_total < 7
 puts "Your cards add up to #{card_total}"
 end
 
