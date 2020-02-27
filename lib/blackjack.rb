@@ -55,7 +55,6 @@ invalid_command
 
 def runner
 welcome
-card_total < 7
 initial_round = card_total
   unless card_total > 21
     card_total = hit?(card_total)
